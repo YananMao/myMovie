@@ -1,0 +1,52 @@
+/*.container{
+  margin:0 20px;
+}*/
+.all{
+  width: 80%;
+  margin: 20px auto 0;
+}
+#calendarWrapper{
+  width: 70%;
+  float:left;
+  /*height:50%;*/
+  /*margin: 0 auto;*/
+}
+.picWrapper{
+  visibility: visible;
+  height: 106px;
+  /*哇,设置background-size就可以让图片全放在这里div里*/
+  background-size: cover;
+}
+#sidebarWrapper{
+  float:left;
+  width:25%;
+  margin-left: 5%;
+  text-align: center;
+}
+#doubanWrapper,#friendsWrapper{
+  margin-top: 20px;
+
+}
+/*#doubanWrapper,#searchWrapper{
+  text-align: center;
+}*/
+#friendsList{
+  background-color: #5bc0de;
+  list-style: none;
+  color:#fff;
+  padding-left: 0;
+  width:50%;
+  /*设置了宽度之后,text-align就不管用了,所以再用margin来设置居中*/
+  margin: 0 auto;
+  border:1px #5bc0de solid;
+  border-radius: 4px;
+}
+.fc tbody .fc-row {
+  height:150px !important;
+}
+.fc-row .fc-content-skeleton,.fc-row .fc-content-skeleton table,.fc-row .fc-content-skeleton table a{
+  height:100%;
+}
+.fc-event{
+  background-color: #a8ccde;
+}
