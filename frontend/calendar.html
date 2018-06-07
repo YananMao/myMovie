@@ -17,7 +17,7 @@
     $(function() {
       $.get('test.json',function(data){
         
-        //现在的测试数据传过来是字符串,所以要转换一下,直接fangwen接口的话不需要
+        //现在的测试数据传过来是字符串,所以要转换一下,直接访问接口的话不需要
         var data = JSON.parse(data);
         // console.log(data);
         //将data保存下来,之后可以根据titil来查询src,cover
@@ -30,7 +30,7 @@
         var dates = [];
         for(var i=0;i<20;i++){
           var date = i+16;
-          dates.push('2018-05-'+date.toString());
+          dates.push('2018-06-'+date.toString());
         }
         var index=0;
         for(var title in data){
